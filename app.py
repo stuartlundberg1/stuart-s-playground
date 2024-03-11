@@ -8,12 +8,10 @@ def calculate_square_tree_areas(side_lengths):
     Returns:
         List[int]: A list of integers representing the areas of the square trees.
     """
-    new_list = []
-    for length in side_lengths:
-        new_list.append(length**2)
-    
-    return (new_list)
+    # Using a list comprehension to calculate areas
+    return [length**2 for length in side_lengths]
 
+# Example usage
 side_lengths = [20]
 areas = calculate_square_tree_areas(side_lengths)
 print(areas)
