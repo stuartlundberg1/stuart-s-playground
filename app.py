@@ -1,6 +1,6 @@
 def calculate_square_tree_areas(side_lengths):
     """
-    Calculate the area of square trees given their side lengths.
+    The goal is to calculate the area of square trees given their side lengths.
     
     Args:
         side_lengths (List[int]): A list of integers representing the side lengths of square trees.
